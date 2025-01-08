@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_scan"
+        android:icon="@drawable/ic_qr_code"
+        android:title="Escanear"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/nav_health"
+        android:icon="@drawable/ic_health"
+        android:title="Salud" />
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/nav_store"
+        android:icon="@drawable/ic_store"
+        android:title="Tienda" />
+
+    <item
+        android:id="@+id/nav_breeding"
+        android:icon="@drawable/ic_breeding"
+        android:title="Cruza" />
+</menu>

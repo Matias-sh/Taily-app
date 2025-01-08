@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:background="@drawable/bg_rounded_white"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/tv_login_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INICIAR SESIÓN"
+            android:textSize="24sp"
+            android:textColor="@color/purple_dark"
+            android:gravity="center"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="correo"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="contraseña"
+            android:layout_marginTop="8dp"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Iniciar Sesión"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/purple_dark"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

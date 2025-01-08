@@ -1,0 +1,34 @@
+<resources>
+    <!-- General -->
+    <string name="app_name">Taily</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="menu">Menú</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">INICIAR SESIÓN</string>
+    <string name="email_hint">correo</string>
+    <string name="password_hint">contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="login_error">Completa todos los campos</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">CREA TU CUENTA</string>
+    <string name="name_hint">nombre</string>
+    <string name="confirm_password_hint">repetir contraseña</string>
+    <string name="register_button">Crear Cuenta</string>
+    <string name="register_error">Completa todos los campos o revisa las contraseñas</string>
+    <string name="register_success">Cuenta creada exitosamente</string>
+
+    <!-- Main Screen -->
+    <string name="pet_background">Fondo de la mascota</string>
+    <string name="pet_name_label">Nombre</string>
+    <string name="pet_type_label">Tipo</string>
+    <string name="pet_age_label">Edad</string>
+
+    <!-- Bottom Navigation -->
+    <string name="nav_scan">Escanear</string>
+    <string name="nav_health">Salud</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_store">Tienda</string>
+    <string name="nav_breeding">Cruza</string>
+</resources>

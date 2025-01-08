@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_light"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREA TU CUENTA"
+        android:textSize="24sp"
+        android:textColor="@color/purple_dark"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="nombre"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="correo"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contraseña"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="repetir contraseña"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crear Cuenta"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/purple_dark"
+        android:textColor="@color/white" />
+</LinearLayout>
