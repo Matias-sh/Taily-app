@@ -43,7 +43,6 @@ class MainActivity : ComponentActivity() {
                     }) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
                         MenuWidget() // Usamos la misma UI
-                        BottomNavigationBar()
                     }
                 }
             }
@@ -57,7 +56,6 @@ class MainActivity : ComponentActivity() {
 fun PreviewHelloWorld() {
     TailyappTheme {
         MenuWidget() // Usamos la misma UI
-        BottomNavigationBar()
     }
 }
 
