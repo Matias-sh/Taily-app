@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "999142772686",
+    "project_id": "tailyapp-99b30",
+    "storage_bucket": "tailyapp-99b30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999142772686:android:0dee78812314fdcf94a59f",
+        "android_client_info": {
+          "package_name": "com.cocido.taily_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999142772686-a4jbsgc31gbto0l2cv9tuddor5vsnvn1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cocido.taily_app",
+            "certificate_hash": "482786ffe1a67b42197a068fc40e26904c6ce0d7"
+          }
+        },
+        {
+          "client_id": "999142772686-687eo0pcql61iq4fme0pd5jlgbpvm3bk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWCT0tXX0WjIOAU1toPhaGUszIiiakbLI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999142772686-687eo0pcql61iq4fme0pd5jlgbpvm3bk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

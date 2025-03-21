@@ -1,16 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.google.services)
 }
 
 android {
     namespace = "com.cocido.taily_app"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.cocido.taily_app"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -37,6 +38,17 @@ android {
 
 dependencies {
 
+    // Google Sign-In
+    implementation(libs.google.auth)
+
+    // Retrofit y Gson
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.retrofitgson)
+    implementation(libs.okhttp)
+    implementation(libs.okhttplogging)
+
+    implementation(libs.lifecycle.viewmodel)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
